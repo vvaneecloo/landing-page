@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* CSS Styles used in the 1st division of the page (see attached jpeg) */
+
+
+#firstdivision_1,
+#firstdivision_2 {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    
+}
+
+#firstdivision_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 265px;
+}
+.header,
+.headerlink {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 24px;
+}
+
+.headerlink {
+    list-style-type: none;
+    gap: 10px;
+    margin-right: 20px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+.firstdivision_middle_li1,
+.firstdivision_middle_li2,
+.firstdivision_middle_li3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.firstdivision_middle_li1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.firstdivision_middle_li2 {
+    font-size: 18px;
+}
+
+.firstdivision_middle_li3 {
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+/* CSS Styles used in the 2nd division of the page (see attached jpeg) */
+#seconddivision {
+    background-color: white;
+    color: #1f2937;
+    height: 266px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second_division_img {
+flex-direction: row;
+}
+
+/* CSS Styles used in the 3rd division of the page (see attached jpeg) */
+#thirddivision {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    height: 266px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CSS Styles used in the 4th division of the page (see attached jpeg) */
+#fourthdivision {
+    background-color: #F9FAF8;
+    color: #1f2937;
+    height: 266px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth_division_block {
+    width: 524px;
+    height: auto;
+    background-color: lightblue;
+}
+
+.fourth_division_block button {
+    align-items: center;
+}
+/* CSS Styles used in the 5th division of the page (see attached jpeg) */
+
+
